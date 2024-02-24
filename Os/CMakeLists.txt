@@ -63,7 +63,7 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL "Darwin")
 elseif(${CMAKE_SYSTEM_NAME} STREQUAL "Android")
 list(APPEND SOURCE_FILES
   "${CMAKE_CURRENT_LIST_DIR}/MacOs/IPCQueueStub.cpp"
-  "${CMAKE_CURRENT_LIST_DIR}/Linux/SystemResources.cpp"
+  "${CMAKE_CURRENT_LIST_DIR}/Android/SystemResources.cpp"
 )
 # Linux IPC queues implementation
 elseif (${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
